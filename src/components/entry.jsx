@@ -9,7 +9,7 @@ function Entry(props) {
                 <span className="country">{props.country}</span>
                 <a href={props.mapLink} >View on Google Maps</a>
                 <h2 className="entry-title">{props.title}</h2>
-                <p className="trip-dates">{props.tripDate}</p>
+                <p className="trip-dates">{props.date}</p>
                 <p className="entry-text">{props.info}</p>
             </div>
 
